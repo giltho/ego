@@ -18,8 +18,8 @@ depends: [
   "ppx_deriving" {>= "4.4"}
   "ocamldot" {>= "1.1"}
   "sexplib" {>= "v0.14.0"}
+  "ppx_inline_alcotest" {>= "1.0.0"}
   "odoc" {with-doc}
-  "ppx_inline_alcotest" {with-test}
 ]
 build: [
   ["dune" "subst"] {dev}
